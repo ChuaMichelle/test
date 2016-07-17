@@ -1,0 +1,29 @@
+body {
+  margin: 0px 10%; 
+}
+.top {
+  text-align: center;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0px;
+
+  border-top:    1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+ul.menu li {
+  display: inline;
+  margin: 0px 12%;
+}
+
+.cover {
+  height: 150px;
+  background-image: url("https://lh3.googleusercontent.com/-fLYTKK2RimA/V4vcd06ChJI/AAAAAAAAAdI/B61xN7_L25sqxQWQq67Z2RB5zlFBg534ACL0B/w1500-h1000-no/travelmaps1.jpg"); 
+  -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+  height:180px;
+}
