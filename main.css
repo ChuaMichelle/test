@@ -1,20 +1,24 @@
 body {
   margin: 0px 10%; 
 }
+
 .top {
   text-align: center;
 }
 
 ul.menu {
+  border-top: 1px solid #000000;
+}
+
+ul.menu, ul.submenu {
   list-style-type: none;
   margin-bottom: 3%;
   padding: 15px 0px;
 
-  border-top:    1px solid #000000;
   border-bottom: 1px solid #000000;
 }
 
-ul.menu li {
+ul.menu li, ul.submenu li {
   display: inline;
   margin: 0px 12%;
 }
